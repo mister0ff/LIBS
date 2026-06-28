@@ -1,0 +1,35 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Bedrock Native Library Integration",
+        "description": "Integração com biblioteca nativa C++",
+        "uuid": "12345678-1234-1234-1234-123456789abc",
+        "version": [1, 0, 0],
+        "min_engine_version": [1, 21, 0]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "87654321-4321-4321-4321-cba987654321",
+            "version": [1, 0, 0]
+        },
+        {
+            "type": "script",
+            "language": "javascript",
+            "uuid": "abcdef12-3456-7890-abcd-ef1234567890",
+            "entry": "scripts/main.js",
+            "version": [1, 0, 0]
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.13.0"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "1.2.0"
+        }
+    ]
+}
+
